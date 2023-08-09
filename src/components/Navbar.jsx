@@ -1,11 +1,5 @@
 import React, { useState } from "react";
-import {
-  FaBars,
-  FaTimes,
-  FaGithub,
-  FaLinkedin,
-  FaFacebook,
-} from "react-icons/fa";
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/Logo.png";
@@ -18,7 +12,7 @@ const Navbar = () => {
   return (
     <div
       className="fixed w-full h-[80px] flex justify-between items-center px-8
-      bg-[#0a192f] text-gray-300"
+      bg-gradient-to-t from-[#000B18] to-[#00172D] text-gray-300"
     >
       <div>
         <Link to="home" smooth={true} duration={500} className="cursor-pointer">
@@ -27,27 +21,27 @@ const Navbar = () => {
       </div>
       {/* menu */}
       <ul className="hidden md:flex">
-        <li>
+        <li className="hover:text-white">
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li>
+        <li className="hover:text-white">
           <Link to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li>
+        <li className="hover:text-white">
           <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li>
+        <li className="hover:text-white">
           <Link to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li>
+        <li className="hover:text-white">
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
