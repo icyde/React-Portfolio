@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Contact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
   return (
     <div
       name="contact"
@@ -31,6 +35,8 @@ const Contact = () => {
           name="name"
           id="name"
           placeholder="Name"
+          onChange={(e) => setName(e.target.value)}
+          value={name}
         />
         <input
           className="my-4 p-2 bg-[#ccd6f6]"
@@ -38,6 +44,8 @@ const Contact = () => {
           name="email"
           id="email"
           placeholder="Email"
+          onChange={(e) => setEmail(e.target.value)}
+          value={email}
         />
         <textarea
           className="bg-[#ccd6f6] p-2"
@@ -45,6 +53,8 @@ const Contact = () => {
           id="message"
           rows="10"
           placeholder="Message"
+          onChange={(e) => setMessage(e.target.value)}
+          value={message}
         />
         <button
           type="submit"
