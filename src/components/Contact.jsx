@@ -45,7 +45,10 @@ const Contact = () => {
           rows="10"
           placeholder="Message"
         />
-        <button className="text-white border-2 hover:bg-slate-300 hover:border-slate-300 px-4 py-3 my-8 mx-auto flex items-center">
+        <button
+          type="submit"
+          className="text-white border-2 hover:bg-slate-300 hover:border-slate-300 px-4 py-3 my-8 mx-auto flex items-center"
+        >
           Submit
         </button>
       </form>
