@@ -16,9 +16,9 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-[#8892b0] text-gray-300">
             Contact
           </p>
-          <p className="text-gray-300 py-4">
+          <p className="text-gray-300 py-4 md:text-xl">
             {" "}
-            Submit the form below to contact me or send me an email directly-
+            Submit the form below to contact me or send me an email directly at
             brandontanruien@gmail.com
           </p>
         </div>

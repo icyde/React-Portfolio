@@ -22,7 +22,7 @@ const About = () => {
             </p>
           </div>
           <div>
-            <p>
+            <p className="md:text-xl">
               I am a penultimate Computer Science undergraduate at Singapore
               University of Technology and Design. This portfolio website serves
               as a testament to my journey, showcasing the projects I've
