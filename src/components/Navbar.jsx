@@ -42,7 +42,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="hover:text-white">
-          <Link to="contact" smooth={true} duration={500}>
+          <Link to="contactPage" smooth={true} duration={500}>
             Contact
           </Link>
         </li>
