@@ -102,7 +102,6 @@ const Navbar = () => {
             onClick={handleClick}
             to="work"
             smooth={true}
-            offset={-80}
             duration={500}
           >
             Work
