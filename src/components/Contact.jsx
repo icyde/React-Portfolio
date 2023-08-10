@@ -9,8 +9,9 @@ const Contact = () => {
       {/* getform.io */}
       <form
         method="POST"
-        action="https://getform.io/f/33cd0b21-2aca-4251-92c5-b1eaabfbb721"
+        name="ContactForm"
         className="flex flex-col max-w-[600px] w-full"
+        data-netlify="true"
       >
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-[#8892b0] text-gray-300">
