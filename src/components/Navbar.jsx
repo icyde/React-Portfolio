@@ -111,7 +111,7 @@ const Navbar = () => {
           <Link
             className="hover:text-slate-500"
             onClick={handleClick}
-            to="contact"
+            to="contactPage"
             smooth={true}
             duration={500}
           >

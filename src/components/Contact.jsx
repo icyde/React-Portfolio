@@ -7,7 +7,7 @@ const Contact = () => {
 
   return (
     <div
-      name="contact"
+      name="contactPage"
       className="w-full h-screen bg-gradient-to-b from-[#000B18] to-[#00172D] flex justify-center items-center p-8 pt-16"
     >
       {/* getform.io */}
