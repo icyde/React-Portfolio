@@ -1,6 +1,6 @@
 import rentomaticImg from "../assets/projects/rentomatic.png";
 import resicoImg from "../assets/projects/resicothumbnail.jpg";
-import wheatImg from "../assets/projects/multipleLinearReg.jpeg";
+import sentimentImg from "../assets/projects/sentiment-analysis.svg";
 
 const projects = [
   {
@@ -19,12 +19,12 @@ const projects = [
     sourceURL: "https://github.com/icyde/ResiCo",
   },
   {
-    title: "Wheat Yield Multiple Linear Regression Model",
+    title: "ML:Sentiment Analysis",
     description:
-      "Supervised Machine Learning - Multiple Linear Regression Model w/ Python",
-    img: wheatImg,
+      "Machine Learning - Implementation of a sequence labelling model for informal texts using Hidden Markov Models",
+    img: sentimentImg,
     videoURL: null,
-    sourceURL: "https://github.com/icyde/T3-DDW-2D",
+    sourceURL: "https://github.com/icyde/Sentiment-Analysis",
   },
 ];
 

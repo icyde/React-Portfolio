@@ -11,16 +11,16 @@ const Home = () => {
       {/* container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-gray-300 pl-1 md:text-xl">Hi, my name is</p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
+        <h1 className="text-4xl sm:text-7xl font-bold text-slate-300">
           Brandon Tan
         </h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
+        <h2 className="text-4xl sm:text-7xl font-bold text-slate-400">
           I'm a Front-end Developer.
         </h2>
-        <p className="text-[#8892b0] py-4 max-w-[700px] md:text-xl">
-          I'm a front-end developer who specializes in building exceptional
-          user-centric applications. Currently, I'm focused on building
-          responsive full-stack web applications.
+        <p className="text-slate-400 py-4 max-w-[700px] md:text-xl">
+          I specialize in building intuitive and exceptional user-centric
+          applications. Currently, I'm focused on building responsive full-stack
+          web applications and honing my expertise.
         </p>
         <div>
           <Link to="work" smooth={true} duration={500}>

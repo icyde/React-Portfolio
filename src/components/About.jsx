@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-[#00172D] to-[#00264D] text-gray-300"
+      className="w-full h-screen bg-gradient-to-b from-[#00172D] to-[#00264D] text-slate-200"
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full x-4 grid grid-cols-2 gap-8">
@@ -17,9 +17,7 @@ const About = () => {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-8">
           <div className="sm:text-right text-4xl font-bold">
-            <p className="text-slate-400">
-              Hi, I'm Brandon. Please take a look around!
-            </p>
+            <p className="text-slate-300">Take a look around!</p>
           </div>
           <div>
             <p className="md:text-xl">
