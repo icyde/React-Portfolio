@@ -23,11 +23,21 @@ const Skills = () => {
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8">
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img src={HTML} alt="html icon" className="w-20 mx-auto" />
+            <img
+              src={HTML}
+              alt="html icon"
+              className="w-20 mx-auto"
+              loading="lazy"
+            />
             <p className="my-4">HTML</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img src={CSS} alt="css icon" className="w-20 mx-auto" />
+            <img
+              src={CSS}
+              alt="css icon"
+              className="w-20 mx-auto"
+              loading="lazy"
+            />
             <p className="my-4">CSS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
@@ -35,19 +45,35 @@ const Skills = () => {
               src={Javascript}
               alt="javascript icon"
               className="w-20 mx-auto"
+              loading="lazy"
             />
             <p className="my-4">JAVASCRIPT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img src={ReactImg} alt="react icon" className="w-20 mx-auto" />
+            <img
+              src={ReactImg}
+              alt="react icon"
+              className="w-20 mx-auto"
+              loading="lazy"
+            />
             <p className="my-4">REACT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img src={Node} alt="node icon" className="w-20 mx-auto" />
+            <img
+              src={Node}
+              alt="node icon"
+              className="w-20 mx-auto"
+              loading="lazy"
+            />
             <p className="my-4">NODE</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img src={Mongo} alt="html icon" className="w-20 mx-auto" />
+            <img
+              src={Mongo}
+              alt="html icon"
+              className="w-20 mx-auto"
+              loading="lazy"
+            />
             <p className="my-4">MONGO</p>
           </div>
         </div>
