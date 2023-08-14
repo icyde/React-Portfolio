@@ -1,6 +1,7 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
+import avatar from "../assets/avatar.webp";
 const Home = () => {
   return (
     <div
@@ -10,13 +11,32 @@ const Home = () => {
       {/* bg-[#0a192f] */}
       {/* container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-gray-300 pl-1 md:text-xl">Hi, my name is</p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-slate-300">
-          Brandon Tan
-        </h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-slate-400">
-          I'm a Front-end Developer.
-        </h2>
+        <div>
+          <div className="md:flex items-end gap-16">
+            <div className="md:flex-col">
+              <div className="flex items-end">
+                <p className="text-gray-300 pl-1 md:text-xl">Hi, my name is</p>
+                <img
+                  className="mx-auto w-[100px] md:hidden my-auto"
+                  src={avatar}
+                  alt="my avatar"
+                />
+              </div>
+              <h1 className="flex text-4xl sm:text-7xl font-bold text-slate-300">
+                Brandon Tan
+              </h1>
+            </div>
+            <img
+              className="hidden md:flex w-[250px] my-auto"
+              src={avatar}
+              alt="my avatar"
+            />
+          </div>
+          <h2 className="text-4xl sm:text-7xl font-bold text-slate-400">
+            I'm a Front-end Developer.
+          </h2>
+        </div>
+
         <p className="text-slate-400 py-4 max-w-[700px] md:text-xl">
           I specialize in building intuitive and exceptional user-centric
           applications. Currently, I'm focused on building responsive full-stack
