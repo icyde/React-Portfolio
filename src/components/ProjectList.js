@@ -1,6 +1,6 @@
-import rentomaticImg from "../assets/projects/rentomatic.png";
-import resicoImg from "../assets/projects/resicothumbnail.jpg";
-import sentimentImg from "../assets/projects/sentiment-analysis.svg";
+import rentomaticImg from "../assets/projects/rentomatic.webp";
+import resicoImg from "../assets/projects/resico.webp";
+import sentimentImg from "../assets/projects/sentiment-analysis.webp";
 
 const projects = [
   {

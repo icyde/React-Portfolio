@@ -4,7 +4,7 @@ const ProjectItem = ({ imgURL, title, description, videoURL, sourceURL }) => {
   return (
     <>
       <div
-        style={{ backgroundImage: `url(${imgURL})` }}
+        style={{ backgroundImage: `url(${imgURL})`, loading: "lazy" }}
         className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
       >
         {/* hover effect */}
