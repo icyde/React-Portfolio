@@ -27,22 +27,22 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="hover:text-white">
-          <Link to="about" smooth={true} duration={500}>
+          <Link to="about" smooth={true} offset={-80} duration={500}>
             About
           </Link>
         </li>
         <li className="hover:text-white">
-          <Link to="skills" smooth={true} duration={500}>
+          <Link to="skills" smooth={true} offset={-80} duration={500}>
             Skills
           </Link>
         </li>
         <li className="hover:text-white">
-          <Link to="work" smooth={true} duration={500}>
+          <Link to="work" smooth={true} offset={-80} duration={500}>
             Work
           </Link>
         </li>
         <li className="hover:text-white">
-          <Link to="contactPage" smooth={true} duration={500}>
+          <Link to="contactPage" smooth={true} offset={-80} duration={500}>
             Contact
           </Link>
         </li>

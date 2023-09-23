@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div
       name="contactPage"
-      className="w-full h-screen bg-gradient-to-b from-[#000B18] to-[#00172D] flex justify-center items-center p-8 pt-16"
+      className="w-full min-h-screen bg-gradient-to-b from-[#000B18] to-[#00172D] flex justify-center items-center p-8"
     >
       {/* getform.io */}
       <form
@@ -23,7 +23,6 @@ const Contact = () => {
             Contact
           </p>
           <p className="text-gray-300 py-4 md:text-xl">
-            {" "}
             Submit the form below to contact me or send me an email directly at
             brandontanruien@gmail.com
           </p>
