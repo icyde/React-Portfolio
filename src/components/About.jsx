@@ -21,7 +21,7 @@ const About = () => {
           </div>
           <div>
             <p className="md:text-xl">
-              I am a penultimate Computer Science undergraduate at Singapore
+              I am a penultimate year Computer Science undergraduate at Singapore
               University of Technology and Design. This portfolio website serves
               as a testament to my journey, showcasing the projects I've
               undertaken, the skills I've acquired, and the perspectives I've
